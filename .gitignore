@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+
+# Dataset / Training Data
+dataset/
+*.jpg
+*.png
+
+# Models / Weights
+*.h5
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

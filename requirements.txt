@@ -1,0 +1,5 @@
+opencv-python==4.8.0.74
+mediapipe==0.10.7
+numpy
+tensorflow==2.13.0
+ultralytics
