@@ -27,13 +27,16 @@ This prototype can later be integrated with a real drone + gimbal + flashlight/l
 ---
 
 ## 📂 Project Files
+
+```bash
+AIMSDrone/
 ├── prototype_flashlight_tracker.py
 ├── prototype_flashlight_arrows_yolo_only.py
-├── CNN                                     (This is where I have trained my own CNN)
-├── main.py                                 (Gesture detection using Mediapipe)
+├── CNN/                     # CNN training + model scripts
+├── main.py                  # Gesture detection using MediaPipe
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 🎯 Selecting Target Object
