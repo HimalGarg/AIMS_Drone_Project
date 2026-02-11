@@ -1,17 +1,14 @@
-# prototype_flashlight_tracker.py
-# Install: pip install ultralytics opencv-python
 
 import cv2
 import numpy as np
 from ultralytics import YOLO
 
 # ---------------- CONFIG ----------------
-MODEL_NAME = "yolov8n.pt"          # lightweight model
-TARGET_CLASS = "cell phone"           # change to "bottle", "cell phone", "car", etc.
-CONF_THRESH = 0.25                 # detection confidence threshold
-SMOOTHING = 0.15                  # flashlight movement smoothing (0.0-1.0)
-CAM_INDEX = 0                     # webcam index
-# ----------------------------------------
+MODEL_NAME = "yolov8n.pt"
+TARGET_CLASS = "cell phone"
+CONF_THRESH = 0.25
+SMOOTHING = 0.15                  
+CAM_INDEX = 0                     
 
 
 def clamp(val, lo, hi):

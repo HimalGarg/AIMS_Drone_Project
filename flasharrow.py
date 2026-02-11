@@ -1,5 +1,4 @@
-# prototype_flashlight_arrows_yolo_only.py
-# Install: pip install ultralytics opencv-python
+
 
 import cv2
 import numpy as np
@@ -7,11 +6,10 @@ from ultralytics import YOLO
 
 # ---------------- CONFIG ----------------
 MODEL_NAME = "yolov8n.pt"
-TARGET_CLASS = "person"     # change to "person", "bottle", etc.
+TARGET_CLASS = "person"
 CONF_THRESH = 0.25
 CAM_INDEX = 0
-DEADZONE = 30                   # pixels (no arrow if target is near center)
-# ----------------------------------------
+DEADZONE = 30
 
 
 model = YOLO(MODEL_NAME)
