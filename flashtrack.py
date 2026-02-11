@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 # ---------------- CONFIG ----------------
 MODEL_NAME = "yolov8n.pt"
-TARGET_CLASS = "cell phone"
+TARGET_CLASS = "person"
 CONF_THRESH = 0.25
 SMOOTHING = 0.15                  
 CAM_INDEX = 0                     
